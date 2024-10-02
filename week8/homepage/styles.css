@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  background-image: linear-gradient(to top, rgba(0,151,151,0.2), rgba(0,151,151,0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+
+  }
+
+
+.container1 {
+  max-width: 1000px;
+  min-width: 300px;
+  width: 100%;
+  margin: 1rem auto;
+}
+.container-fluid {
+  -padding-left: 50px;
+  max-width: 1000px;
+
+}
+
+
+
+#logo {
+  width: 200px;
+  height: 50px;
+  margin: 0;
+}
+
+.w-100 {
+
+  border-radius: 12px;
+}
+.container-text {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  align-items: center;
+  -padding: 2rem;
+  -flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container2 {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+
+
+
+}
+
+.col {
+  margin-top: 1rem;
+}
+.text {
+
+  text-align: center;
+  padding: 0 2rem;
+}
+
+
+@media (max-width: 800px) {
+  .container-text {
+    flex-direction: column;
+
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    font-size: 1.5rem;
+  }
+
+
+}
+
+
+button, .b {
+  background-color: #006666;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 12px;
+  margin: 1.5rem;
+
+}
+button, .b:hover {
+  background-color: #30BCED;
+}
+.nav-link:hover {
+  background-color: #30BCED;
+}
+.nav-link {
+  margin: 0 1rem;
+}
+iframe {
+  border-radius: 12px;
+}
+.container-fish {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#frame-index {
+  width: 400px;
+
+
+
+}
+
+.quotes-box {
+
+  padding-top: 2rem;
+  margin: 0 auto;
+  width: 50vw;
+  min-height: 300px;
+  font-size: 1.5rem;
+}
+
+.generator {
+
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url('fishes.jpg');
+  border-radius: 12px;
+
+}
+.a {
+  background-color: rgba(49, 187, 237, 0.5);
+  border-radius: 12px 12px 0 0;
+}
+.reset {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  background-color: #006666;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 12px;
+  vertical-align: middle;
+
+}
+label {
+
+  margin: 0 1rem;
+
+}
+form {
+  min-width: 300px;
+}
+
+@media (max-width: 700px){
+  label {
+    margin: 0 0;
+  }
+}
+
+

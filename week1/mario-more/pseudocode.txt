@@ -1,0 +1,10 @@
+prompts user for positive integer (height)
+if height is less than 1 or greater than 8  go back
+interger build piramid from #
+builds lines and rows using loops
+Print # and . and " "
+Loop for rows
+Inner loop for . and " "
+Inner Loop for #
+Inner loop for inside ..
+Inner loop for second #

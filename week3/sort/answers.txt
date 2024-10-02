@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: after analyzing time O(n^2) and Û(n)
+
+sort2 uses: merge sort
+
+How do you know?: after analyzing time O(nlogn) and Û(nlogn)
+
+sort3 uses: selection sort
+
+How do you know?: after analyzing time O(n^2) and Û(n^2)
